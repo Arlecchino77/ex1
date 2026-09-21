@@ -266,5 +266,5 @@ CREATE INDEX IX_Товар_Категория ON Товар(ID_категори�
 CREATE INDEX IX_Товар_Поставщик ON Товар(ID_поставщика);
 CREATE INDEX IX_ДеталиЗаказа_Заказ ON ДеталиЗаказа(ID_заказа);
 CREATE INDEX IX_ДеталиЗаказа_Товар ON ДеталиЗаказа(ID_товара);
-GO ```
+GO ```sql
        
